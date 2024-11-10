@@ -1,0 +1,61 @@
+#header{
+    background-color: rgb(240, 240, 240);
+
+}
+.embed-responsive {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+    /* 確保容器寬度為100% */
+}
+.embed-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    
+}
+.card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    text-align: center;
+    border-top: 1px solid #dee2e6;
+}
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+.profile-pic-container {
+    margin: 50px auto; /* 上下邊距，並置中 */
+    width: 300px; /* 設定圓形區塊的寬度 */
+    height: 300px; /* 設定圓形區塊的高度 */
+    overflow: hidden; /* 隱藏超出圓形範圍的部分 */
+    border-radius: 50%; /* 使區塊變成圓形 */
+    display: flex; /* 使用 flexbox 來置中圖片 */
+    justify-content: center; /* 水平置中 */
+    align-items: center; /* 垂直置中 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* 添加陰影 */
+}
+
+.profile-pic {
+    width: 100%; /* 使圖片寬度填滿圓形容器 */
+    height: auto; /* 自動高度以保持比例 */
+}
+
+#carouselExample{
+    border: gray solid 5px;
+    border-radius: 5px;
+}
